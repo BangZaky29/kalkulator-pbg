@@ -27,11 +27,8 @@ body {
   min-height: 100vh;
 }
 
-h1 {
-  font-family: 'Sen', 'Inter', ui-sans-serif, system-ui;
-  font-size: 3.2em;
-  line-height: 1.1;
-}
+/* h1 intentionally NOT set here — handled per-component in App.css
+   (bare h1 { font-size: 3.2em } caused header title to be oversized) */
 
 button {
   border-radius: 8px;
