@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/main.tsx","./src/components/calculationresultview.tsx","./src/components/calculatorform.tsx","./src/components/notessection.tsx","./src/components/pbgcalculator.tsx","./src/hooks/usecalculator.ts","./src/services/calculatorengine.ts","./src/types/calculator.types.ts","./src/utils/currency.ts"],"version":"5.9.3"}
