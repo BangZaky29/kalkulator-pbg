@@ -1,5 +1,6 @@
 import React from 'react';
 import { useCalculator } from '../hooks/useCalculator';
+import LogoNuansaLegal from '../assets/LOGO-NUANSA-LEGAL.jpeg';
 import { CalculatorForm } from './CalculatorForm';
 import { CalculationResultView } from './CalculationResultView';
 import { NotesSection } from './NotesSection';
@@ -12,10 +13,7 @@ export const PBGCalculator: React.FC = () => {
       <header className="header">
         <div className="container">
           <div className="logo">
-            <img
-              src="/NS_white_01.png"
-              alt="Nuansa Legal"
-            />
+            <img src={LogoNuansaLegal} alt="Nuansa Legal" style={{ width: '98px', height: '98px', objectFit: 'contain' }} />
           </div>
 
           <div className="header-text">
